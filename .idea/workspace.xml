@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df5593a9-ed80-4b32-bb46-7c53b59ac32c" name="Default Changelist" comment="Inclusão dos Exercicios de OperadorCast, e SmartCast.">
-      <change afterPath="$PROJECT_DIR$/src/funcoes/ArgsNomeados.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/funcoes/ChamandoFuncaoKotlin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/funcoes/FuncaoInfix.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/funcoes/MultiplosRetornos.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/funcoes/ParametrosImutaveis.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/funcoes/ParametrosPadroes.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/funcoes/SegundoElementoList.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/funcoes/TopLevel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/funcoes/UnitReturn.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/funcoes/VarArgs.kt" afterDir="false" />
+    <list default="true" id="df5593a9-ed80-4b32-bb46-7c53b59ac32c" name="Default Changelist" comment="Inclusão dos Exercicios de Funcoes.">
+      <change afterPath="$PROJECT_DIR$/src/funcoes/FuncaoComParam2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/funcoes/FuncaoComoParam1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/funcoes/Inline1.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CursoKotlin/META-INF/CursoKotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CursoKotlin/META-INF/CursoKotlin.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/funcoes/UnitReturn.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/funcoes/UnitReturn.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,12 +24,12 @@
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/funcoes/UnitReturn.kt">
+        <entry file="file://$PROJECT_DIR$/src/funcoes/Inline1.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            <state relative-caret-position="255">
+              <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -64,10 +58,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/fundamentos/FuncaoComRetorno.kt" />
-        <option value="$PROJECT_DIR$/src/fundamentos/TemplateString.kt" />
-        <option value="$PROJECT_DIR$/src/fundamentos/TemplateString2.kt" />
-        <option value="$PROJECT_DIR$/src/fundamentos/NotacaoPonto.kt" />
         <option value="$PROJECT_DIR$/src/fundamentos/ChamadaSegura.kt" />
         <option value="$PROJECT_DIR$/src/fundamentos/OperadorElvis.kt" />
         <option value="$PROJECT_DIR$/src/fundamentos/ForcandoExcecaoNullPointer.kt" />
@@ -115,6 +105,10 @@
         <option value="$PROJECT_DIR$/src/funcoes/VarArgs.kt" />
         <option value="$PROJECT_DIR$/src/funcoes/FuncaoInfix.kt" />
         <option value="$PROJECT_DIR$/src/funcoes/UnitReturn.kt" />
+        <option value="$PROJECT_DIR$/src/funcoes/FuncaoComoParam1.kt" />
+        <option value="$PROJECT_DIR$/src/funcoes/FuncaoComParam2.kt" />
+        <option value="$PROJECT_DIR$/src/funcoes/FuncoesInline.kt" />
+        <option value="$PROJECT_DIR$/src/funcoes/Inline1.kt" />
       </list>
     </option>
   </component>
@@ -160,12 +154,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543277919767" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543361914013" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
   </component>
   <component name="RunDashboard">
@@ -180,7 +174,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.funcoes.VarArgsKt">
+  <component name="RunManager" selected="Kotlin.funcoes.FuncaoComParam2Kt">
     <configuration name="ChamandoFuncaoKotlin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="funcoes.ChamandoFuncaoKotlin" />
       <module name="CursoKotlin" />
@@ -194,6 +188,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="funcoes.FuncaoComParam2Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="CursoKotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="funcoes.FuncaoComParam2Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="funcoes.MultiplosRetornosKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="CursoKotlin" />
       <option name="VM_PARAMETERS" />
@@ -202,19 +209,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="funcoes.MultiplosRetornosKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="funcoes.ParametrosPadroesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="CursoKotlin" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="funcoes.ParametrosPadroesKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -248,11 +242,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.funcoes.FuncaoComParam2Kt" />
         <item itemvalue="Kotlin.funcoes.VarArgsKt" />
         <item itemvalue="Application.ChamandoFuncaoKotlin" />
         <item itemvalue="Kotlin.funcoes.SegundoElementoListKt" />
         <item itemvalue="Kotlin.funcoes.MultiplosRetornosKt" />
-        <item itemvalue="Kotlin.funcoes.ParametrosPadroesKt" />
       </list>
     </recent_temporary>
   </component>
@@ -320,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543061795251</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Inclusão dos Exercicios de Funcoes.">
+      <created>1543277953235</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1543277953236</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -336,7 +337,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19261745" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19530201" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -346,15 +347,15 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48322147" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4818792" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932885" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49731544" weight="0.22237961" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5167785" side_tool="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4899329" weight="0.31303117" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.48657718" weight="0.17705382" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.51543623" side_tool="true" visible="true" weight="0.31303117" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.48456377" visible="true" weight="0.31303117" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4852349" weight="0.17705382" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" visible="true" weight="0.24966443" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -415,7 +416,8 @@
     <MESSAGE value="Inclusão dos Exercicios de Repetição e Operadores Aritimeticos." />
     <MESSAGE value="Inclusão dos Exercicios de Ternários, Chegagem de Tipos e Conversão de Numero para String." />
     <MESSAGE value="Inclusão dos Exercicios de OperadorCast, e SmartCast." />
-    <option name="LAST_COMMIT_MESSAGE" value="Inclusão dos Exercicios de OperadorCast, e SmartCast." />
+    <MESSAGE value="Inclusão dos Exercicios de Funcoes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Inclusão dos Exercicios de Funcoes." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -437,27 +439,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/fundamentos/TemplateString2.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fundamentos/OperadorElvis.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fundamentos/ChamadaSegura.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/fundamentos/CuidadoInferencia1.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -754,13 +735,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/funcoes/ChamandoFuncaoKotlin.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/funcoes/ChamandoFuncaoKotlin.kt" />
     <entry file="file://$PROJECT_DIR$/src/funcoes/ChamandoFuncaoKotlin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -787,8 +762,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/funcoes/UnitReturn.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        <state relative-caret-position="352">
+          <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/funcoes/FuncaoComoParam1.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/funcoes/FuncaoComParam2.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="90" selection-start-line="11" selection-start-column="90" selection-end-line="11" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/funcoes/Inline1.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
         </state>
       </provider>
     </entry>
