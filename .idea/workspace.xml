@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df5593a9-ed80-4b32-bb46-7c53b59ac32c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/classes/Enum1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/Enum2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/GettersCalculados.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/MembrosClasseVsInstancia.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classes/PassagemReferencia.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Carlos_Henrique.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambdas/Apply.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambdas/Filter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambdas/Lambda1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambdas/Lambda2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambdas/Let.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambdas/Map1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambdas/Map2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambdas/Run.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambdas/SortedBy.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambdas/TakeIf.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CursoKotlin/META-INF/CursoKotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CursoKotlin/META-INF/CursoKotlin.kotlin_module" afterDir="false" />
     </list>
@@ -27,10 +34,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/classes/Enum2.kt">
+        <entry file="file://$PROJECT_DIR$/src/lambdas/Run.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="200">
+              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -59,16 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/fundamentos/controle/For4.kt" />
-        <option value="$PROJECT_DIR$/src/fundamentos/controle/doWhile.kt" />
-        <option value="$PROJECT_DIR$/src/fundamentos/controle/DoWhile.kt" />
-        <option value="$PROJECT_DIR$/src/fundamentos/controle/Break1.kt" />
-        <option value="$PROJECT_DIR$/src/fundamentos/controle/Break2.kt" />
-        <option value="$PROJECT_DIR$/src/fundamentos/controle/Continue.kt" />
-        <option value="$PROJECT_DIR$/src/fundamentos/operadores/Atribuicao.kt" />
-        <option value="$PROJECT_DIR$/src/fundamentos/operadores/Destructuring.kt" />
-        <option value="$PROJECT_DIR$/src/fundamentos/operadores/Aritimeticos.kt" />
-        <option value="$PROJECT_DIR$/src/fundamentos/operadores/Relacionais.kt" />
         <option value="$PROJECT_DIR$/src/fundamentos/operadores/Logicos.kt" />
         <option value="$PROJECT_DIR$/src/fundamentos/operadores/Unarios.kt" />
         <option value="$PROJECT_DIR$/src/fundamentos/operadores/Ternario2.kt" />
@@ -110,6 +107,16 @@
         <option value="$PROJECT_DIR$/src/classes/PassagemReferencia.kt" />
         <option value="$PROJECT_DIR$/src/classes/Enum1.kt" />
         <option value="$PROJECT_DIR$/src/classes/Enum2.kt" />
+        <option value="$PROJECT_DIR$/src/lambdas/Lambda1.kt" />
+        <option value="$PROJECT_DIR$/src/lambdas/Lambda2.kt" />
+        <option value="$PROJECT_DIR$/src/lambdas/SortedBy.kt" />
+        <option value="$PROJECT_DIR$/src/lambdas/Filter.kt" />
+        <option value="$PROJECT_DIR$/src/lambdas/Map1.kt" />
+        <option value="$PROJECT_DIR$/src/lambdas/Map2.kt" />
+        <option value="$PROJECT_DIR$/src/lambdas/takeIf.kt" />
+        <option value="$PROJECT_DIR$/src/lambdas/Apply.kt" />
+        <option value="$PROJECT_DIR$/src/lambdas/Let.kt" />
+        <option value="$PROJECT_DIR$/src/lambdas/Run.kt" />
       </list>
     </option>
   </component>
@@ -133,7 +140,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -151,17 +157,18 @@
               <item name="Kotlin" type="b2602c69:ProjectViewProjectNode" />
               <item name="Kotlin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="lambdas" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543968591068" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544486730382" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -175,67 +182,67 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.classes.Enum2Kt">
-    <configuration name="classes.Enum1Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.lambdas.RunKt">
+    <configuration name="lambdas.ApplyKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="CursoKotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="classes.Enum1Kt" />
+      <option name="MAIN_CLASS_NAME" value="lambdas.ApplyKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="classes.Enum2Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="lambdas.LetKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="CursoKotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="classes.Enum2Kt" />
+      <option name="MAIN_CLASS_NAME" value="lambdas.LetKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="classes.GettersCalculadosKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="lambdas.Map2Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="CursoKotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="classes.GettersCalculadosKt" />
+      <option name="MAIN_CLASS_NAME" value="lambdas.Map2Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="classes.MembrosClasseVsInstanciaKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="lambdas.RunKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="CursoKotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="classes.MembrosClasseVsInstanciaKt" />
+      <option name="MAIN_CLASS_NAME" value="lambdas.RunKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="classes.PassagemReferenciaKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="lambdas.TakeIfKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="CursoKotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="classes.PassagemReferenciaKt" />
+      <option name="MAIN_CLASS_NAME" value="lambdas.TakeIfKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -243,11 +250,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.classes.Enum2Kt" />
-        <item itemvalue="Kotlin.classes.Enum1Kt" />
-        <item itemvalue="Kotlin.classes.PassagemReferenciaKt" />
-        <item itemvalue="Kotlin.classes.MembrosClasseVsInstanciaKt" />
-        <item itemvalue="Kotlin.classes.GettersCalculadosKt" />
+        <item itemvalue="Kotlin.lambdas.RunKt" />
+        <item itemvalue="Kotlin.lambdas.LetKt" />
+        <item itemvalue="Kotlin.lambdas.ApplyKt" />
+        <item itemvalue="Kotlin.lambdas.TakeIfKt" />
+        <item itemvalue="Kotlin.lambdas.Map2Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -343,7 +350,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543882210664</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Inclusão dos Exercicios de Classes e Objetos - concluido.">
+      <created>1543968668806</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1543968668806</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView">
@@ -359,7 +373,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16644295" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.147651" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -369,17 +383,17 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4805369" visible="true" weight="0.44050992" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4785235" visible="true" weight="0.2592068" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932885" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932885" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49731544" weight="0.22237961" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.51946306" side_tool="true" weight="0.3512748" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.48322147" weight="0.31303117" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5214765" side_tool="true" visible="true" weight="0.2592068" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4805369" weight="0.31303117" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.48389262" weight="0.39235127" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" visible="true" weight="0.24966443" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven" order="4" weight="0.3295302" />
@@ -442,7 +456,8 @@
     <MESSAGE value="Inclusão dos Exercicios de Funcoes - parte 2." />
     <MESSAGE value="Inclusão dos Exercicios de Funcoes Finalizado." />
     <MESSAGE value="Inclusão dos Exercicios de Classes e Objetos - parte 1." />
-    <option name="LAST_COMMIT_MESSAGE" value="Inclusão dos Exercicios de Classes e Objetos - parte 1." />
+    <MESSAGE value="Inclusão dos Exercicios de Classes e Objetos - concluido." />
+    <option name="LAST_COMMIT_MESSAGE" value="Inclusão dos Exercicios de Classes e Objetos - concluido." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -456,12 +471,6 @@
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/classes/Enum2.kt</url>
-          <line>14</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -470,76 +479,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/fundamentos/controle/Break2.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fundamentos/controle/Break1.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="20" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fundamentos/controle/DoWhile.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fundamentos/controle/For4.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fundamentos/controle/Continue.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fundamentos/operadores/Atribuicao.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fundamentos/operadores/Destructuring.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fundamentos/operadores/Aritimeticos.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fundamentos/operadores/Logicos.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fundamentos/operadores/Relacionais.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/fundamentos/operadores/Unarios.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -634,13 +573,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/funcoes/MultiplosRetornos.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -760,24 +692,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/Construtor2.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="85" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/classes/BlocoInit.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="95" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/GettersCalculados.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -812,7 +730,98 @@
     <entry file="file://$PROJECT_DIR$/src/classes/Enum2.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lambdas/Lambda2.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lambdas/Lambda1.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/GettersCalculados.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/Construtor2.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lambdas/SortedBy.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lambdas/Filter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lambdas/Map1.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/funcoes/MultiplosRetornos.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lambdas/TakeIf.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lambdas/Map2.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lambdas/Let.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lambdas/Apply.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lambdas/Run.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
